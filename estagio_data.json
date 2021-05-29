@@ -1,0 +1,1270 @@
+[
+      {
+            "empresa": "FORD",
+            "periodo": "2021.1",
+            "requisito_semestre": 0,
+            "carga_horaria": 30,
+            "requisitos": [],
+            "diferenciais": [],
+            "area": [
+                  "GERAL"
+            ],
+            "subarea": "GERAL",
+            "maximo_semestre": 7
+      },
+      {
+            "empresa": "ULTRAGAZ",
+            "periodo": "2021.1",
+            "requisito_semestre": 0,
+            "carga_horaria": 0,
+            "requisitos": [],
+            "diferenciais": [],
+            "area": [
+                  "GERAL"
+            ],
+            "subarea": "GERAL",
+            "maximo_semestre": 10
+      },
+      {
+            "empresa": "M.Dias Branco",
+            "periodo": "2021.1",
+            "requisito_semestre": 0,
+            "carga_horaria": 0,
+            "requisitos": [],
+            "diferenciais": [],
+            "area": [
+                  "CONTROLE"
+            ],
+            "subarea": "OTIMIZAÇÃO",
+            "maximo_semestre": 8
+      },
+      {
+            "empresa": "SUZANO",
+            "periodo": "2021.1",
+            "requisito_semestre": 6,
+            "carga_horaria": 30,
+            "requisitos": [],
+            "diferenciais": [],
+            "area": [
+                  "GERAL"
+            ],
+            "subarea": "GERAL",
+            "maximo_semestre": 8
+      },
+      {
+            "empresa": "AP CONSULTORIA E PROJETOS",
+            "periodo": "2021.1",
+            "requisito_semestre": 0,
+            "carga_horaria": 0,
+            "requisitos": [],
+            "diferenciais": [],
+            "area": [
+                  "GERAL"
+            ],
+            "subarea": "GERAL",
+            "maximo_semestre": 10
+      },
+      {
+            "empresa": "CONTINENTAL",
+            "periodo": "2021.1",
+            "requisito_semestre": 0,
+            "carga_horaria": 0,
+            "requisitos": [],
+            "diferenciais": [],
+            "area": [
+                  "GERAL"
+            ],
+            "subarea": "GERAL",
+            "maximo_semestre": 10
+      },
+      {
+            "empresa": "MFX",
+            "periodo": "2021.1",
+            "requisito_semestre": 6,
+            "carga_horaria": 30,
+            "requisitos": [
+                  "INGLÊS AVANÇADO"
+            ],
+            "diferenciais": [],
+            "area": [
+                  "GERAL"
+            ],
+            "subarea": "GERAL",
+            "maximo_semestre": 10
+      },
+      {
+            "empresa": "ACCENTURE",
+            "periodo": "2021.1",
+            "requisito_semestre": 6,
+            "carga_horaria": 0,
+            "requisitos": [
+                  "OFFICE",
+                  "INGLÊS AVANÇADO",
+                  "EXCEL"
+            ],
+            "diferenciais": [
+                  "POWER BI"
+            ],
+            "area": [
+                  "CONSULTORIA"
+            ],
+            "subarea": "GERAL",
+            "maximo_semestre": 10
+      },
+      {
+            "empresa": "BAYER",
+            "periodo": "2021.1",
+            "requisito_semestre": 2,
+            "carga_horaria": 30,
+            "requisitos": [],
+            "diferenciais": [
+                  "INGLÊS INTERMEDIÁRIO"
+            ],
+            "area": [
+                  "GERAL"
+            ],
+            "subarea": "GERAL",
+            "maximo_semestre": 10
+      },
+      {
+            "empresa": "UFBA",
+            "periodo": "2021.1",
+            "requisito_semestre": 6,
+            "carga_horaria": 20,
+            "requisitos": [
+                  "CR: 6.0",
+                  "OFFICE",
+                  "AUTOCAD",
+                  "PROJETO DE INSTALAÇÕES ELÉTRICAS"
+            ],
+            "diferenciais": [
+                  "LUMINE V4",
+                  "PROJETO DE INSTALAÇÕES ELÉTRICAS INDUSTRIAIS"
+            ],
+            "area": [
+                  "POTÊNCIA"
+            ],
+            "subarea": "INSTALAÇÕES ELÉTRICAS",
+            "maximo_semestre": 10
+      },
+      {
+            "empresa": "TRONOX",
+            "periodo": "2021.1",
+            "requisito_semestre": 5,
+            "carga_horaria": 0,
+            "requisitos": [
+                  "OFFICE",
+                  "INGLÊS AVANÇADO"
+            ],
+            "diferenciais": [],
+            "area": [
+                  "GERAL"
+            ],
+            "subarea": "GERAL",
+            "maximo_semestre": 10
+      },
+      {
+            "empresa": "GPCE",
+            "periodo": "2021.1",
+            "requisito_semestre": 7,
+            "carga_horaria": 0,
+            "requisitos": [
+                  "OFFICE",
+                  "AUTOCAD"
+            ],
+            "diferenciais": [],
+            "area": [
+                  "POTÊNCIA"
+            ],
+            "subarea": "GERAL",
+            "maximo_semestre": 10
+      },
+      {
+            "empresa": "GOVBA",
+            "periodo": "2021.1",
+            "requisito_semestre": 5,
+            "carga_horaria": 0,
+            "requisitos": [],
+            "diferenciais": [],
+            "area": [
+                  "GERAL"
+            ],
+            "subarea": "GERAL",
+            "maximo_semestre": 10
+      },
+      {
+            "empresa": "VOLTXS",
+            "periodo": "2021.1",
+            "requisito_semestre": 7,
+            "carga_horaria": 30,
+            "requisitos": [
+                  "OFFICE",
+                  "AUTOCAD",
+                  "FOTOVOLTAICO"
+            ],
+            "diferenciais": [
+                  "RN 414/2010 ANEEL",
+                  "RN 482/2012 ANEEL",
+                  "NBR-5410",
+                  "NBR-14039"
+            ],
+            "area": [
+                  "POTÊNCIA"
+            ],
+            "subarea": "SOLAR",
+            "maximo_semestre": 10
+      },
+      {
+            "empresa": "ACCENTURE",
+            "periodo": "2021.1",
+            "requisito_semestre": 6,
+            "carga_horaria": 0,
+            "requisitos": [
+                  "OFFICE",
+                  "INGLÊS AVANÇADO",
+                  "EXCEL"
+            ],
+            "diferenciais": [
+                  "PROGRAMAÇÃO",
+                  "MODELO RELACIONAL"
+            ],
+            "area": [
+                  "CONSULTORIA"
+            ],
+            "subarea": "GERAL",
+            "maximo_semestre": 10
+      },
+      {
+            "empresa": "HCN AUTOMAÇÃO",
+            "periodo": "2021.1",
+            "requisito_semestre": 0,
+            "carga_horaria": 30,
+            "requisitos": [
+                  "AUTOCAD",
+                  "EXCEL"
+            ],
+            "diferenciais": [
+                  "SISTEMAS SUPERVISÓRIOS",
+                  "INGLÊS INTERMEDIÁRIO"
+            ],
+            "area": [
+                  "CONTROLE"
+            ],
+            "subarea": "AUTOMAÇÃO INDUSTRIAL",
+            "maximo_semestre": 10
+      },
+      {
+            "empresa": "SENAI CIMATEC",
+            "periodo": "2020.2",
+            "requisito_semestre": 5,
+            "carga_horaria": 30,
+            "requisitos": [
+                  "AUTOCAD",
+                  "EXCEL"
+            ],
+            "diferenciais": [
+                  "SISTEMAS SUPERVISÓRIOS",
+                  "INGLÊS INTERMEDIÁRIO"
+            ],
+            "area": [
+                  "POTÊNCIA"
+            ],
+            "subarea": "GERAÇÃO TRANSMISSÃO DISTRIBUIÇÃO",
+            "maximo_semestre": 8
+      },
+      {
+            "empresa": "TIMAC AGRO",
+            "periodo": "2020.2",
+            "requisito_semestre": 7,
+            "carga_horaria": 0,
+            "requisitos": [],
+            "diferenciais": [],
+            "area": [
+                  "GERAL"
+            ],
+            "subarea": "GERAL",
+            "maximo_semestre": 10
+      },
+      {
+            "empresa": "MFX",
+            "periodo": "2020.2",
+            "requisito_semestre": 9,
+            "carga_horaria": 30,
+            "requisitos": [
+                  "OFFICE",
+                  "INGLÊS AVANÇADO"
+            ],
+            "diferenciais": [],
+            "area": [
+                  "GERAL"
+            ],
+            "subarea": "GERAL",
+            "maximo_semestre": 10
+      },
+      {
+            "empresa": "FÓTON",
+            "periodo": "2020.2",
+            "requisito_semestre": 6,
+            "carga_horaria": 0,
+            "requisitos": [],
+            "diferenciais": [
+                  "DESEMPENHO ACADÊMICO",
+                  "AUTOCAD",
+                  "OFFICE",
+                  "INGLÊS AVANÇADO",
+                  "PROJETOS ELÉTRICOS",
+                  "NBR-5410"
+            ],
+            "area": [
+                  "POTÊNCIA"
+            ],
+            "subarea": "SOLAR",
+            "maximo_semestre": 7
+      },
+      {
+            "empresa": "SAPHYR SHOPPINGS",
+            "periodo": "2020.2",
+            "requisito_semestre": 0,
+            "carga_horaria": 0,
+            "requisitos": [],
+            "diferenciais": [],
+            "area": [
+                  "POTÊNCIA"
+            ],
+            "subarea": "GERAL",
+            "maximo_semestre": 10
+      },
+      {
+            "empresa": "LEDAX",
+            "periodo": "2020.2",
+            "requisito_semestre": 5,
+            "carga_horaria": 0,
+            "requisitos": [
+                  "VSCODE",
+                  "DESIGN DE PCI",
+                  "KICAD",
+                  "MULTISIM",
+                  "PSICE",
+                  "EAGLE",
+                  "INGLÊS INTERMEDIÁRIO"
+            ],
+            "diferenciais": [
+                  "METODOLOGIA AGIL"
+            ],
+            "area": [
+                  "ELETRÔNICA"
+            ],
+            "subarea": "IOT",
+            "maximo_semestre": 9
+      },
+      {
+            "empresa": "FORD",
+            "periodo": "2020.2",
+            "requisito_semestre": 0,
+            "carga_horaria": 0,
+            "requisitos": [],
+            "diferenciais": [],
+            "area": [
+                  "GERAL"
+            ],
+            "subarea": "GERAL",
+            "maximo_semestre": 10
+      },
+      {
+            "empresa": "AP CONSULTORIA E PROJETOS",
+            "periodo": "2020.1",
+            "requisito_semestre": 5,
+            "carga_horaria": 30,
+            "requisitos": [],
+            "diferenciais": [],
+            "area": [
+                  "GERAL"
+            ],
+            "subarea": "GERAL",
+            "maximo_semestre": 10
+      },
+      {
+            "empresa": "MONVERT",
+            "periodo": "2020.1",
+            "requisito_semestre": 5,
+            "carga_horaria": 30,
+            "requisitos": [
+                  "OFFICE"
+            ],
+            "diferenciais": [
+                  "INGLÊS INTERMEDIÁRIO",
+                  "EXPERIÊNCIA ENG. CIVIL"
+            ],
+            "area": [
+                  "GERAL"
+            ],
+            "subarea": "GERAL",
+            "maximo_semestre": 6
+      },
+      {
+            "empresa": "AMBEV",
+            "periodo": "2020.1",
+            "requisito_semestre": 6,
+            "carga_horaria": 0,
+            "requisitos": [],
+            "diferenciais": [],
+            "area": [
+                  "GERAL"
+            ],
+            "subarea": "GERAL",
+            "maximo_semestre": 10
+      },
+      {
+            "empresa": "TIMAC AGRO",
+            "periodo": "2020.1",
+            "requisito_semestre": 5,
+            "carga_horaria": 0,
+            "requisitos": [],
+            "diferenciais": [],
+            "area": [
+                  "GERAL"
+            ],
+            "subarea": "GERAL",
+            "maximo_semestre": 10
+      },
+      {
+            "empresa": "TRONOX",
+            "periodo": "2020.1",
+            "requisito_semestre": 5,
+            "carga_horaria": 30,
+            "requisitos": [
+                  "OFFICE",
+                  "INGLÊS INTERMEDIÁRIO"
+            ],
+            "diferenciais": [],
+            "area": [
+                  "POTÊNCIA"
+            ],
+            "subarea": "EQUIPAMENTOS ELÉTRICOS",
+            "maximo_semestre": 7
+      },
+      {
+            "empresa": "HOSPITAL ANA NERY",
+            "periodo": "2020.1",
+            "requisito_semestre": 6,
+            "carga_horaria": 20,
+            "requisitos": [
+                  "OFFICE",
+                  "INGLÊS INTERMEDIÁRIO"
+            ],
+            "diferenciais": [],
+            "area": [
+                  "ELETRÔNICA"
+            ],
+            "subarea": "EQUIPAMENTOS",
+            "maximo_semestre": 10
+      },
+      {
+            "empresa": "FLUXOTÉCNICA",
+            "periodo": "2020.1",
+            "requisito_semestre": 5,
+            "carga_horaria": 20,
+            "requisitos": [],
+            "diferenciais": [],
+            "area": [
+                  "POTÊNCIA"
+            ],
+            "subarea": "MOTORES",
+            "maximo_semestre": 10
+      },
+      {
+            "empresa": "CONTINENTAL",
+            "periodo": "2020.1",
+            "requisito_semestre": 0,
+            "carga_horaria": 20,
+            "requisitos": [
+                  "INGLÊS AVANÇADO",
+                  "AUTOCAD"
+            ],
+            "diferenciais": [
+                  "FERRAMENTAS LEAN",
+                  "OTIMIZAÇÃO DE PROCESSOS",
+                  "EXCEL"
+            ],
+            "area": [
+                  "CONTROLE"
+            ],
+            "subarea": "OTIMIZAÇÃO",
+            "maximo_semestre": 7
+      },
+      {
+            "empresa": "CODEBA",
+            "periodo": "2020.1",
+            "requisito_semestre": 5,
+            "carga_horaria": 20,
+            "requisitos": [],
+            "diferenciais": [],
+            "area": [
+                  "POTÊNCIA",
+                  "ELETRÔNICA"
+            ],
+            "subarea": "GERAL",
+            "maximo_semestre": 10
+      },
+      {
+            "empresa": "MACROSOL",
+            "periodo": "2019.2",
+            "requisito_semestre": 0,
+            "carga_horaria": 0,
+            "requisitos": [],
+            "diferenciais": [],
+            "area": [
+                  "POTÊNCIA"
+            ],
+            "subarea": "ENERGIA SOLAR",
+            "maximo_semestre": 10
+      },
+      {
+            "empresa": "FORD",
+            "periodo": "2019.2",
+            "requisito_semestre": 0,
+            "carga_horaria": 0,
+            "requisitos": [],
+            "diferenciais": [],
+            "area": [
+                  "GERAL"
+            ],
+            "subarea": "GERAL",
+            "maximo_semestre": 10
+      },
+      {
+            "empresa": "ULTRAGAZ",
+            "periodo": "2019.2",
+            "requisito_semestre": 0,
+            "carga_horaria": 0,
+            "requisitos": [],
+            "diferenciais": [],
+            "area": [
+                  "GERAL"
+            ],
+            "subarea": "GERAL",
+            "maximo_semestre": 10
+      },
+      {
+            "empresa": "DIEL ENERGIA",
+            "periodo": "2019.2",
+            "requisito_semestre": 6,
+            "carga_horaria": 0,
+            "requisitos": [
+                  "PYTHON",
+                  "ESTATÍSTICA"
+            ],
+            "diferenciais": [
+                  "MACHINE LEARNING",
+                  "BANCOS DE DADOS",
+                  "SQL",
+                  "NOSQL",
+                  "DYNAMODB"
+            ],
+            "area": [
+                  "CIÊNCIA DE DADOS"
+            ],
+            "subarea": "GERAL",
+            "maximo_semestre": 10
+      },
+      {
+            "empresa": "IFBA",
+            "periodo": "2019.2",
+            "requisito_semestre": 5,
+            "carga_horaria": 20,
+            "requisitos": [
+                  "OFFICE",
+                  "AUTOCAD"
+            ],
+            "diferenciais": [
+                  "CURSO TÉCNICO",
+                  "20 ANOS",
+                  "SUBSTAÇÕES",
+                  "INSTALAÇÕES ELÉTRICAS",
+                  "SPDA",
+                  "EFICIÊNCIA ENERGÉTICA"
+            ],
+            "area": [
+                  "POTÊNCIA"
+            ],
+            "subarea": "INSTALAÇÕES ELÉTRICAS",
+            "maximo_semestre": 10
+      },
+      {
+            "empresa": "BASF",
+            "periodo": "2019.2",
+            "requisito_semestre": 5,
+            "carga_horaria": 30,
+            "requisitos": [],
+            "diferenciais": [],
+            "area": [
+                  "GERAL"
+            ],
+            "subarea": "GERAL",
+            "maximo_semestre": 6
+      },
+      {
+            "empresa": "BASF",
+            "periodo": "2020.2",
+            "requisito_semestre": 5,
+            "carga_horaria": 30,
+            "requisitos": [],
+            "diferenciais": [],
+            "area": [
+                  "GERAL"
+            ],
+            "subarea": "GERAL",
+            "maximo_semestre": 6
+      },
+      {
+            "empresa": "TIMAC AGRO",
+            "periodo": "2019.2",
+            "requisito_semestre": 7,
+            "carga_horaria": 0,
+            "requisitos": [],
+            "diferenciais": [],
+            "area": [
+                  "GERAL"
+            ],
+            "subarea": "GERAL",
+            "maximo_semestre": 10
+      },
+      {
+            "empresa": "FLUXOTÉCNICA",
+            "periodo": "2019.2",
+            "requisito_semestre": 5,
+            "carga_horaria": 20,
+            "requisitos": [],
+            "diferenciais": [],
+            "area": [
+                  "POTÊNCIA"
+            ],
+            "subarea": "MOTORES",
+            "maximo_semestre": 10
+      },
+      {
+            "empresa": "LEDAX",
+            "periodo": "2019.2",
+            "requisito_semestre": 0,
+            "carga_horaria": 30,
+            "requisitos": [
+                  "C#",
+                  "MQTT",
+                  "PYTHON",
+                  "BANCOS DE DADOS",
+                  "EXCEL",
+                  "MICROCONTROLADORES",
+                  "INGLÊS INTERMEDIÁRIO"
+            ],
+            "diferenciais": [
+                  "ML",
+                  "AI",
+                  "MDO"
+            ],
+            "area": [
+                  "COMPUTAÇÃO"
+            ],
+            "subarea": "FULLSTACK",
+            "maximo_semestre": 10
+      },
+      {
+            "empresa": "GLOBAL ENGENHARIA",
+            "periodo": "2019.2",
+            "requisito_semestre": 6,
+            "carga_horaria": 30,
+            "requisitos": [
+                  "OFFICE"
+            ],
+            "diferenciais": [],
+            "area": [
+                  "POTÊNCIA"
+            ],
+            "subarea": "REGULAÇÃO",
+            "maximo_semestre": 7
+      },
+      {
+            "empresa": "FÓTON",
+            "periodo": "2019.2",
+            "requisito_semestre": 6,
+            "carga_horaria": 0,
+            "requisitos": [],
+            "diferenciais": [
+                  "AUTOCAD",
+                  "OFFICE",
+                  "INGLÊS INTERMEDIÁRIO"
+            ],
+            "area": [
+                  "POTÊNCIA"
+            ],
+            "subarea": "SOLAR",
+            "maximo_semestre": 8
+      },
+      {
+            "empresa": "FORD",
+            "periodo": "2019.2",
+            "requisito_semestre": 0,
+            "carga_horaria": 0,
+            "requisitos": [],
+            "diferenciais": [],
+            "area": [
+                  "GERAL"
+            ],
+            "subarea": "GERAL",
+            "maximo_semestre": 10
+      },
+      {
+            "empresa": "TITAN ENGENHARIA E ENERGIA",
+            "periodo": "2019.2",
+            "requisito_semestre": 0,
+            "carga_horaria": 0,
+            "requisitos": [
+                  "AUTOCAD",
+                  "EXCEL"
+            ],
+            "diferenciais": [],
+            "area": [
+                  "POTÊNCIA"
+            ],
+            "subarea": "GERAL",
+            "maximo_semestre": 10
+      },
+      {
+            "empresa": "TRONOX",
+            "periodo": "2019.1",
+            "requisito_semestre": 6,
+            "carga_horaria": 30,
+            "requisitos": [
+                  "OFFICE",
+                  "INGLÊS INTERMEDIÁRIO"
+            ],
+            "diferenciais": [],
+            "area": [
+                  "POTÊNCIA"
+            ],
+            "subarea": "EQUIPAMENTOS ELÉTRICOS",
+            "maximo_semestre": 8
+      },
+      {
+            "empresa": "ENGEPACK EMBALAGENS",
+            "periodo": "2019.1",
+            "requisito_semestre": 6,
+            "carga_horaria": 34,
+            "requisitos": [
+                  "INGLÊS AVANÇADO"
+            ],
+            "diferenciais": [],
+            "area": [
+                  "CONTROLE"
+            ],
+            "subarea": "PRODUÇÃO",
+            "maximo_semestre": 10
+      },
+      {
+            "empresa": "ODEBRECHT",
+            "periodo": "2019.1",
+            "requisito_semestre": 5,
+            "carga_horaria": 0,
+            "requisitos": [],
+            "diferenciais": [],
+            "area": [
+                  "GERAL"
+            ],
+            "subarea": "GERAL",
+            "maximo_semestre": 10
+      },
+      {
+            "empresa": "GENERAL ELECTRIC",
+            "periodo": "2019.1",
+            "requisito_semestre": 0,
+            "carga_horaria": 0,
+            "requisitos": [
+                  "INGLÊS AVANÇADO"
+            ],
+            "diferenciais": [],
+            "area": [
+                  "CONTROLE"
+            ],
+            "subarea": "OTIMIZAÇÃO",
+            "maximo_semestre": 8
+      },
+      {
+            "empresa": "FLUXOTÉCNICA",
+            "periodo": "2019.1",
+            "requisito_semestre": 5,
+            "carga_horaria": 0,
+            "requisitos": [],
+            "diferenciais": [],
+            "area": [
+                  "POTÊNCIA"
+            ],
+            "subarea": "MOTORES",
+            "maximo_semestre": 10
+      },
+      {
+            "empresa": "CIEE",
+            "periodo": "2019.1",
+            "requisito_semestre": 0,
+            "carga_horaria": 0,
+            "requisitos": [],
+            "diferenciais": [],
+            "area": [
+                  "COMPUTAÇÃO"
+            ],
+            "subarea": "GERAL",
+            "maximo_semestre": 10
+      },
+      {
+            "empresa": "GOVBA",
+            "periodo": "2019.1",
+            "requisito_semestre": 5,
+            "carga_horaria": 0,
+            "requisitos": [],
+            "diferenciais": [],
+            "area": [
+                  "GERAL"
+            ],
+            "subarea": "GERAL",
+            "maximo_semestre": 10
+      },
+      {
+            "empresa": "TERMOVERDE",
+            "periodo": "2019.1",
+            "requisito_semestre": 6,
+            "carga_horaria": 0,
+            "requisitos": [
+                  "OFFICE"
+            ],
+            "diferenciais": [],
+            "area": [
+                  "POTÊNCIA"
+            ],
+            "subarea": "GERAÇÃO",
+            "maximo_semestre": 10
+      },
+      {
+            "empresa": "CÓDIGOKID",
+            "periodo": "2019.1",
+            "requisito_semestre": 6,
+            "carga_horaria": 0,
+            "requisitos": [],
+            "diferenciais": [
+                  "ARDUINO",
+                  "PROGRAMAÇÃO WEB"
+            ],
+            "area": [
+                  "ELETRÔNICA"
+            ],
+            "subarea": "ENSINO",
+            "maximo_semestre": 10
+      },
+      {
+            "empresa": "LLAB",
+            "periodo": "2019.1",
+            "requisito_semestre": 0,
+            "carga_horaria": 25,
+            "requisitos": [
+                  "INGLÊS AVANÇADO"
+            ],
+            "diferenciais": [
+                  "CIÊNCIA DE DADOS"
+            ],
+            "area": [
+                  "COMPUTAÇÃO"
+            ],
+            "subarea": "WEB",
+            "maximo_semestre": 10
+      },
+      {
+            "empresa": "SIEMENS",
+            "periodo": "2019.1",
+            "requisito_semestre": 0,
+            "carga_horaria": 30,
+            "requisitos": [],
+            "diferenciais": [],
+            "area": [
+                  "CONTROLE",
+                  "ELETRÔNICA"
+            ],
+            "subarea": "IMAGEM MEDICAL",
+            "maximo_semestre": 6
+      },
+      {
+            "empresa": "2B EDUCAÇÃO",
+            "periodo": "2018.2",
+            "requisito_semestre": 0,
+            "carga_horaria": 0,
+            "requisitos": [],
+            "diferenciais": [],
+            "area": [
+                  "GERAL"
+            ],
+            "subarea": "GERAL",
+            "maximo_semestre": 10
+      },
+      {
+            "empresa": "TIM",
+            "periodo": "2018.2",
+            "requisito_semestre": 6,
+            "carga_horaria": 0,
+            "requisitos": [],
+            "diferenciais": [],
+            "area": [
+                  "GERAL"
+            ],
+            "subarea": "GERAL",
+            "maximo_semestre": 7
+      },
+      {
+            "empresa": "NEOENERGIA",
+            "periodo": "2020.1",
+            "requisito_semestre": 0,
+            "carga_horaria": 0,
+            "requisitos": [],
+            "diferenciais": [],
+            "area": [
+                  "GERAL"
+            ],
+            "subarea": "GERAL",
+            "maximo_semestre": 10
+      },
+      {
+            "empresa": "NEOENERGIA",
+            "periodo": "2018.2",
+            "requisito_semestre": 0,
+            "carga_horaria": 0,
+            "requisitos": [],
+            "diferenciais": [],
+            "area": [
+                  "GERAL"
+            ],
+            "subarea": "GERAL",
+            "maximo_semestre": 10
+      },
+      {
+            "empresa": "BAYER",
+            "periodo": "2018.2",
+            "requisito_semestre": 0,
+            "carga_horaria": 0,
+            "requisitos": [],
+            "diferenciais": [],
+            "area": [
+                  "GERAL"
+            ],
+            "subarea": "GERAL",
+            "maximo_semestre": 10
+      },
+      {
+            "empresa": "CIEE",
+            "periodo": "2018.2",
+            "requisito_semestre": 5,
+            "carga_horaria": 30,
+            "requisitos": [
+                  "INGLÊS INTERMEDIÁRIO"
+            ],
+            "diferenciais": [],
+            "area": [
+                  "CONTROLE"
+            ],
+            "subarea": "PRODUÇÃO",
+            "maximo_semestre": 7
+      },
+      {
+            "empresa": "AP CONSULTORIA E PROJETOS",
+            "periodo": "2018.2",
+            "requisito_semestre": 0,
+            "carga_horaria": 0,
+            "requisitos": [],
+            "diferenciais": [],
+            "area": [
+                  "GERAL"
+            ],
+            "subarea": "GERAL",
+            "maximo_semestre": 10
+      },
+      {
+            "empresa": "PEPSICO",
+            "periodo": "2018.2",
+            "requisito_semestre": 0,
+            "carga_horaria": 0,
+            "requisitos": [],
+            "diferenciais": [],
+            "area": [
+                  "GERAL"
+            ],
+            "subarea": "GERAL",
+            "maximo_semestre": 10
+      },
+      {
+            "empresa": "BLUM",
+            "periodo": "2018.2",
+            "requisito_semestre": 5,
+            "carga_horaria": 30,
+            "requisitos": [
+                  "EXCEL"
+            ],
+            "diferenciais": [],
+            "area": [
+                  "POTÊNCIA"
+            ],
+            "subarea": "ENERGIA SOLAR",
+            "maximo_semestre": 10
+      },
+      {
+            "empresa": "DOW",
+            "periodo": "2018.2",
+            "requisito_semestre": 0,
+            "carga_horaria": 30,
+            "requisitos": [],
+            "diferenciais": [],
+            "area": [
+                  "GERAL"
+            ],
+            "subarea": "GERAL",
+            "maximo_semestre": 10
+      },
+      {
+            "empresa": "ACCENTURE",
+            "periodo": "2018.2",
+            "requisito_semestre": 6,
+            "carga_horaria": 0,
+            "requisitos": [
+                  "OFFICE",
+                  "INGLÊS AVANÇADO",
+                  "EXCEL",
+                  "VBA"
+            ],
+            "diferenciais": [
+                  "MODELO RELACIONAL",
+                  "SQL"
+            ],
+            "area": [
+                  "CONSULTORIA"
+            ],
+            "subarea": "GERAL",
+            "maximo_semestre": 10
+      },
+      {
+            "empresa": "ENGEPACK EMBALAGENS",
+            "periodo": "2018.2",
+            "requisito_semestre": 4,
+            "carga_horaria": 34,
+            "requisitos": [
+                  "SQL",
+                  "PROGRAMAÇÃO"
+            ],
+            "diferenciais": [],
+            "area": [
+                  "COMPUTAÇÃO"
+            ],
+            "subarea": "SISTEMAS",
+            "maximo_semestre": 10
+      },
+      {
+            "empresa": "PREFEITURA DE SALVADOR",
+            "periodo": "2018.2",
+            "requisito_semestre": 6,
+            "carga_horaria": 20,
+            "requisitos": [
+                  "GESTÃO",
+                  "EXCEL"
+            ],
+            "diferenciais": [
+                  "ATIVIDADES EXTRACURRICULARES"
+            ],
+            "area": [
+                  "GERAL"
+            ],
+            "subarea": "GERAL",
+            "maximo_semestre": 10
+      },
+      {
+            "empresa": "MFX",
+            "periodo": "2018.1",
+            "requisito_semestre": 5,
+            "carga_horaria": 0,
+            "requisitos": [
+                  "INGLÊS AVANÇADO"
+            ],
+            "diferenciais": [
+                  "INTERCÂMBIO"
+            ],
+            "area": [
+                  "POTÊNCIA"
+            ],
+            "subarea": "GERAL",
+            "maximo_semestre": 6
+      },
+      {
+            "empresa": "ODEBRECHT",
+            "periodo": "2018.1",
+            "requisito_semestre": 4,
+            "carga_horaria": 20,
+            "requisitos": [],
+            "diferenciais": [],
+            "area": [
+                  "GERAL"
+            ],
+            "subarea": "GERAL",
+            "maximo_semestre": 10
+      },
+      {
+            "empresa": "ENGEPACK EMBALAGENS",
+            "periodo": "2018.1",
+            "requisito_semestre": 5,
+            "carga_horaria": 34,
+            "requisitos": [
+                  "SQL",
+                  "PROGRAMAÇÃO"
+            ],
+            "diferenciais": [],
+            "area": [
+                  "COMPUTAÇÃO"
+            ],
+            "subarea": "SISTEMAS",
+            "maximo_semestre": 10
+      },
+      {
+            "empresa": "MONSANTO",
+            "periodo": "2018.1",
+            "requisito_semestre": 0,
+            "carga_horaria": 40,
+            "requisitos": [
+                  "INGLÊS INTERMEDIÁRIO",
+                  "OFFICE"
+            ],
+            "diferenciais": [],
+            "area": [
+                  "GERAL"
+            ],
+            "subarea": "GERAL",
+            "maximo_semestre": 8
+      },
+      {
+            "empresa": "RAIZEN",
+            "periodo": "2018.1",
+            "requisito_semestre": 4,
+            "carga_horaria": 30,
+            "requisitos": [
+                  "INGLÊS INTERMEDIÁRIO"
+            ],
+            "diferenciais": [],
+            "area": [
+                  "POTÊNCIA"
+            ],
+            "subarea": "GERAL",
+            "maximo_semestre": 8
+      },
+      {
+            "empresa": "RAIZEN",
+            "periodo": "2019.1",
+            "requisito_semestre": 6,
+            "carga_horaria": 30,
+            "requisitos": [
+                  "INGLÊS INTERMEDIÁRIO"
+            ],
+            "diferenciais": [],
+            "area": [
+                  "POTÊNCIA"
+            ],
+            "subarea": "GERAL",
+            "maximo_semestre": 10
+      },
+      {
+            "empresa": "BRK AMBIENTAL",
+            "periodo": "2017.2",
+            "requisito_semestre": 0,
+            "carga_horaria": 0,
+            "requisitos": [],
+            "diferenciais": [],
+            "area": [
+                  "GERAL"
+            ],
+            "subarea": "GERAL",
+            "maximo_semestre": 10
+      },
+      {
+            "empresa": "AMBEV",
+            "periodo": "2017.1",
+            "requisito_semestre": 0,
+            "carga_horaria": 0,
+            "requisitos": [],
+            "diferenciais": [],
+            "area": [
+                  "GERAL"
+            ],
+            "subarea": "GERAL",
+            "maximo_semestre": 10
+      },
+      {
+            "empresa": "UFBA",
+            "periodo": "2017.1",
+            "requisito_semestre": 6,
+            "carga_horaria": 20,
+            "requisitos": [
+                  "CR: 6.0",
+                  "OFFICE",
+                  "AUTOCAD"
+            ],
+            "diferenciais": [],
+            "area": [
+                  "POTÊNCIA"
+            ],
+            "subarea": "INSTALAÇÕES ELÉTRICAS",
+            "maximo_semestre": 10
+      },
+      {
+            "empresa": "SEMOP",
+            "periodo": "2017.1",
+            "requisito_semestre": 5,
+            "carga_horaria": 0,
+            "requisitos": [],
+            "diferenciais": [],
+            "area": [
+                  "GERAL"
+            ],
+            "subarea": "GERAL",
+            "maximo_semestre": 10
+      },
+      {
+            "empresa": "HORMIGON ENGENHARIA",
+            "periodo": "2016.2",
+            "requisito_semestre": 6,
+            "carga_horaria": 30,
+            "requisitos": [
+                  "EXCEL",
+                  "INGLÊS INTERMEDIÁRIO"
+            ],
+            "diferenciais": [],
+            "area": [
+                  "CONSULTORIA"
+            ],
+            "subarea": "ANÁLISE DE CONTRATOS",
+            "maximo_semestre": 10
+      },
+      {
+            "empresa": "AMBEV",
+            "periodo": "2016.1",
+            "requisito_semestre": 0,
+            "carga_horaria": 0,
+            "requisitos": [],
+            "diferenciais": [],
+            "area": [
+                  "GERAL"
+            ],
+            "subarea": "GERAL",
+            "maximo_semestre": 10
+      },
+      {
+            "empresa": "BAHIAGÁS",
+            "periodo": "2016.1",
+            "requisito_semestre": 3,
+            "carga_horaria": 30,
+            "requisitos": [],
+            "diferenciais": [],
+            "area": [
+                  "GERAL"
+            ],
+            "subarea": "GERAL",
+            "maximo_semestre": 10
+      }
+]
