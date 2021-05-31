@@ -23,7 +23,7 @@ dados_df = pd.read_json('estagio_data.json', encoding='UTF-8')
 # APP
 
 '''
-# Estudo Estágio Engenharia Elétrica UFBA ![alt text](../assets/images/brasao_ufba.jpg "Universidade Federal Da Bahia")
+# Estudo Estágio Engenharia Elétrica UFBA ![alt text](https://github.com/b-rbmp/Estudo-Estagio-EE-UFBA/blob/main/assets/images/brasao_ufba.png "Universidade Federal Da Bahia")
 '''
 
 st.write('')
