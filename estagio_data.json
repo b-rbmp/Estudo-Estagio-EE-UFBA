@@ -1,5 +1,31 @@
 [
       {
+            "empresa": "NUBE - CROMEX (?)",
+            "periodo": "2021.1",
+            "requisito_semestre": 0,
+            "carga_horaria": 35,
+            "requisitos": [],
+            "diferenciais": [],
+            "area": [
+                  "CONTROLE"
+            ],
+            "subarea": "PRODUÇÃO",
+            "maximo_semestre": 10
+      },
+      {
+            "empresa": "PEPSICO",
+            "periodo": "2021.1",
+            "requisito_semestre": 5,
+            "carga_horaria": 0,
+            "requisitos": [],
+            "diferenciais": [],
+            "area": [
+                  "GERAL"
+            ],
+            "subarea": "GERAL",
+            "maximo_semestre": 8
+      },
+      {
             "empresa": "FORD",
             "periodo": "2021.1",
             "requisito_semestre": 0,
