@@ -1,14 +1,34 @@
 [
       {
+            "empresa": "ILUMINAR ENGENHARIA",
+            "periodo": "2021.1",
+            "requisito_semestre": 4,
+            "carga_horaria": 25,
+            "requisitos": ["CNH", "EXCEL", "AUTOCAD", "OFFICE"],
+            "diferenciais": [],
+            "area": "POTÊNCIA",
+            "subarea": "INSTALAÇÕES ELÉTRICAS",
+            "maximo_semestre": 7
+      },
+      {
+            "empresa": "FLUXOTÉCNICA",
+            "periodo": "2021.1",
+            "requisito_semestre": 7,
+            "carga_horaria": 0,
+            "requisitos": [],
+            "diferenciais": [],
+            "area": "POTÊNCIA",
+            "subarea": "MOTORES",
+            "maximo_semestre": 10
+      },
+      {
             "empresa": "NUBE - CROMEX (?)",
             "periodo": "2021.1",
             "requisito_semestre": 0,
             "carga_horaria": 35,
             "requisitos": [],
             "diferenciais": [],
-            "area": [
-                  "CONTROLE"
-            ],
+            "area": "CONTROLE",
             "subarea": "PRODUÇÃO",
             "maximo_semestre": 10
       },
@@ -19,9 +39,7 @@
             "carga_horaria": 0,
             "requisitos": [],
             "diferenciais": [],
-            "area": [
-                  "GERAL"
-            ],
+            "area": "GERAL",
             "subarea": "GERAL",
             "maximo_semestre": 8
       },
@@ -32,9 +50,7 @@
             "carga_horaria": 30,
             "requisitos": [],
             "diferenciais": [],
-            "area": [
-                  "GERAL"
-            ],
+            "area": "GERAL",
             "subarea": "GERAL",
             "maximo_semestre": 7
       },
@@ -45,9 +61,7 @@
             "carga_horaria": 0,
             "requisitos": [],
             "diferenciais": [],
-            "area": [
-                  "GERAL"
-            ],
+            "area": "GERAL",
             "subarea": "GERAL",
             "maximo_semestre": 10
       },
@@ -58,9 +72,7 @@
             "carga_horaria": 0,
             "requisitos": [],
             "diferenciais": [],
-            "area": [
-                  "CONTROLE"
-            ],
+            "area": "CONTROLE",
             "subarea": "OTIMIZAÇÃO",
             "maximo_semestre": 8
       },
@@ -71,9 +83,7 @@
             "carga_horaria": 30,
             "requisitos": [],
             "diferenciais": [],
-            "area": [
-                  "GERAL"
-            ],
+            "area": "GERAL",
             "subarea": "GERAL",
             "maximo_semestre": 8
       },
@@ -84,9 +94,7 @@
             "carga_horaria": 0,
             "requisitos": [],
             "diferenciais": [],
-            "area": [
-                  "GERAL"
-            ],
+            "area": "GERAL",
             "subarea": "GERAL",
             "maximo_semestre": 10
       },
@@ -97,9 +105,7 @@
             "carga_horaria": 0,
             "requisitos": [],
             "diferenciais": [],
-            "area": [
-                  "GERAL"
-            ],
+            "area": "GERAL",
             "subarea": "GERAL",
             "maximo_semestre": 10
       },
@@ -112,9 +118,7 @@
                   "INGLÊS AVANÇADO"
             ],
             "diferenciais": [],
-            "area": [
-                  "GERAL"
-            ],
+            "area": "GERAL",
             "subarea": "GERAL",
             "maximo_semestre": 10
       },
@@ -131,9 +135,7 @@
             "diferenciais": [
                   "POWER BI"
             ],
-            "area": [
-                  "CONSULTORIA"
-            ],
+            "area": "CONSULTORIA",
             "subarea": "GERAL",
             "maximo_semestre": 10
       },
@@ -146,9 +148,7 @@
             "diferenciais": [
                   "INGLÊS INTERMEDIÁRIO"
             ],
-            "area": [
-                  "GERAL"
-            ],
+            "area": "GERAL",
             "subarea": "GERAL",
             "maximo_semestre": 10
       },
@@ -161,15 +161,13 @@
                   "CR: 6.0",
                   "OFFICE",
                   "AUTOCAD",
-                  "PROJETO DE INSTALAÇÕES ELÉTRICAS"
+                  "INSTALAÇÕES ELÉTRICAS"
             ],
             "diferenciais": [
                   "LUMINE V4",
                   "PROJETO DE INSTALAÇÕES ELÉTRICAS INDUSTRIAIS"
             ],
-            "area": [
-                  "POTÊNCIA"
-            ],
+            "area": "POTÊNCIA",
             "subarea": "INSTALAÇÕES ELÉTRICAS",
             "maximo_semestre": 10
       },
@@ -183,9 +181,7 @@
                   "INGLÊS AVANÇADO"
             ],
             "diferenciais": [],
-            "area": [
-                  "GERAL"
-            ],
+            "area": "GERAL",
             "subarea": "GERAL",
             "maximo_semestre": 10
       },
@@ -199,9 +195,7 @@
                   "AUTOCAD"
             ],
             "diferenciais": [],
-            "area": [
-                  "POTÊNCIA"
-            ],
+            "area": "POTÊNCIA",
             "subarea": "GERAL",
             "maximo_semestre": 10
       },
@@ -212,9 +206,7 @@
             "carga_horaria": 0,
             "requisitos": [],
             "diferenciais": [],
-            "area": [
-                  "GERAL"
-            ],
+            "area": "GERAL",
             "subarea": "GERAL",
             "maximo_semestre": 10
       },
@@ -234,9 +226,7 @@
                   "NBR-5410",
                   "NBR-14039"
             ],
-            "area": [
-                  "POTÊNCIA"
-            ],
+            "area": "POTÊNCIA",
             "subarea": "SOLAR",
             "maximo_semestre": 10
       },
@@ -254,9 +244,7 @@
                   "PROGRAMAÇÃO",
                   "MODELO RELACIONAL"
             ],
-            "area": [
-                  "CONSULTORIA"
-            ],
+            "area": "CONSULTORIA",
             "subarea": "GERAL",
             "maximo_semestre": 10
       },
@@ -273,9 +261,7 @@
                   "SISTEMAS SUPERVISÓRIOS",
                   "INGLÊS INTERMEDIÁRIO"
             ],
-            "area": [
-                  "CONTROLE"
-            ],
+            "area": "CONTROLE",
             "subarea": "AUTOMAÇÃO INDUSTRIAL",
             "maximo_semestre": 10
       },
@@ -292,9 +278,7 @@
                   "SISTEMAS SUPERVISÓRIOS",
                   "INGLÊS INTERMEDIÁRIO"
             ],
-            "area": [
-                  "POTÊNCIA"
-            ],
+            "area": "POTÊNCIA",
             "subarea": "GERAÇÃO TRANSMISSÃO DISTRIBUIÇÃO",
             "maximo_semestre": 8
       },
@@ -305,9 +289,7 @@
             "carga_horaria": 0,
             "requisitos": [],
             "diferenciais": [],
-            "area": [
-                  "GERAL"
-            ],
+            "area": "GERAL",
             "subarea": "GERAL",
             "maximo_semestre": 10
       },
@@ -321,9 +303,7 @@
                   "INGLÊS AVANÇADO"
             ],
             "diferenciais": [],
-            "area": [
-                  "GERAL"
-            ],
+            "area": "GERAL",
             "subarea": "GERAL",
             "maximo_semestre": 10
       },
@@ -341,9 +321,7 @@
                   "PROJETOS ELÉTRICOS",
                   "NBR-5410"
             ],
-            "area": [
-                  "POTÊNCIA"
-            ],
+            "area": "POTÊNCIA",
             "subarea": "SOLAR",
             "maximo_semestre": 7
       },
@@ -354,9 +332,7 @@
             "carga_horaria": 0,
             "requisitos": [],
             "diferenciais": [],
-            "area": [
-                  "POTÊNCIA"
-            ],
+            "area": "POTÊNCIA",
             "subarea": "GERAL",
             "maximo_semestre": 10
       },
@@ -377,9 +353,7 @@
             "diferenciais": [
                   "METODOLOGIA AGIL"
             ],
-            "area": [
-                  "ELETRÔNICA"
-            ],
+            "area": "ELETRÔNICA",
             "subarea": "IOT",
             "maximo_semestre": 9
       },
@@ -390,9 +364,7 @@
             "carga_horaria": 0,
             "requisitos": [],
             "diferenciais": [],
-            "area": [
-                  "GERAL"
-            ],
+            "area": "GERAL",
             "subarea": "GERAL",
             "maximo_semestre": 10
       },
@@ -403,9 +375,7 @@
             "carga_horaria": 30,
             "requisitos": [],
             "diferenciais": [],
-            "area": [
-                  "GERAL"
-            ],
+            "area": "GERAL",
             "subarea": "GERAL",
             "maximo_semestre": 10
       },
@@ -421,9 +391,7 @@
                   "INGLÊS INTERMEDIÁRIO",
                   "EXPERIÊNCIA ENG. CIVIL"
             ],
-            "area": [
-                  "GERAL"
-            ],
+            "area": "GERAL",
             "subarea": "GERAL",
             "maximo_semestre": 6
       },
@@ -434,9 +402,7 @@
             "carga_horaria": 0,
             "requisitos": [],
             "diferenciais": [],
-            "area": [
-                  "GERAL"
-            ],
+            "area": "GERAL",
             "subarea": "GERAL",
             "maximo_semestre": 10
       },
@@ -447,9 +413,7 @@
             "carga_horaria": 0,
             "requisitos": [],
             "diferenciais": [],
-            "area": [
-                  "GERAL"
-            ],
+            "area": "GERAL",
             "subarea": "GERAL",
             "maximo_semestre": 10
       },
@@ -463,9 +427,7 @@
                   "INGLÊS INTERMEDIÁRIO"
             ],
             "diferenciais": [],
-            "area": [
-                  "POTÊNCIA"
-            ],
+            "area": "POTÊNCIA",
             "subarea": "EQUIPAMENTOS ELÉTRICOS",
             "maximo_semestre": 7
       },
@@ -479,9 +441,7 @@
                   "INGLÊS INTERMEDIÁRIO"
             ],
             "diferenciais": [],
-            "area": [
-                  "ELETRÔNICA"
-            ],
+            "area": "ELETRÔNICA",
             "subarea": "EQUIPAMENTOS",
             "maximo_semestre": 10
       },
@@ -492,9 +452,7 @@
             "carga_horaria": 20,
             "requisitos": [],
             "diferenciais": [],
-            "area": [
-                  "POTÊNCIA"
-            ],
+            "area": "POTÊNCIA",
             "subarea": "MOTORES",
             "maximo_semestre": 10
       },
@@ -512,9 +470,7 @@
                   "OTIMIZAÇÃO DE PROCESSOS",
                   "EXCEL"
             ],
-            "area": [
-                  "CONTROLE"
-            ],
+            "area": "CONTROLE",
             "subarea": "OTIMIZAÇÃO",
             "maximo_semestre": 7
       },
@@ -525,10 +481,7 @@
             "carga_horaria": 20,
             "requisitos": [],
             "diferenciais": [],
-            "area": [
-                  "POTÊNCIA",
-                  "ELETRÔNICA"
-            ],
+            "area": "GERAL",
             "subarea": "GERAL",
             "maximo_semestre": 10
       },
@@ -539,9 +492,7 @@
             "carga_horaria": 0,
             "requisitos": [],
             "diferenciais": [],
-            "area": [
-                  "POTÊNCIA"
-            ],
+            "area": "POTÊNCIA",
             "subarea": "ENERGIA SOLAR",
             "maximo_semestre": 10
       },
@@ -552,9 +503,7 @@
             "carga_horaria": 0,
             "requisitos": [],
             "diferenciais": [],
-            "area": [
-                  "GERAL"
-            ],
+            "area": "GERAL",
             "subarea": "GERAL",
             "maximo_semestre": 10
       },
@@ -565,9 +514,7 @@
             "carga_horaria": 0,
             "requisitos": [],
             "diferenciais": [],
-            "area": [
-                  "GERAL"
-            ],
+            "area": "GERAL",
             "subarea": "GERAL",
             "maximo_semestre": 10
       },
@@ -587,9 +534,7 @@
                   "NOSQL",
                   "DYNAMODB"
             ],
-            "area": [
-                  "CIÊNCIA DE DADOS"
-            ],
+            "area": "CIÊNCIA DE DADOS",
             "subarea": "GERAL",
             "maximo_semestre": 10
       },
@@ -610,9 +555,7 @@
                   "SPDA",
                   "EFICIÊNCIA ENERGÉTICA"
             ],
-            "area": [
-                  "POTÊNCIA"
-            ],
+            "area": "POTÊNCIA",
             "subarea": "INSTALAÇÕES ELÉTRICAS",
             "maximo_semestre": 10
       },
@@ -623,9 +566,7 @@
             "carga_horaria": 30,
             "requisitos": [],
             "diferenciais": [],
-            "area": [
-                  "GERAL"
-            ],
+            "area": "GERAL",
             "subarea": "GERAL",
             "maximo_semestre": 6
       },
@@ -636,9 +577,7 @@
             "carga_horaria": 30,
             "requisitos": [],
             "diferenciais": [],
-            "area": [
-                  "GERAL"
-            ],
+            "area": "GERAL",
             "subarea": "GERAL",
             "maximo_semestre": 6
       },
@@ -649,9 +588,7 @@
             "carga_horaria": 0,
             "requisitos": [],
             "diferenciais": [],
-            "area": [
-                  "GERAL"
-            ],
+            "area": "GERAL",
             "subarea": "GERAL",
             "maximo_semestre": 10
       },
@@ -662,9 +599,7 @@
             "carga_horaria": 20,
             "requisitos": [],
             "diferenciais": [],
-            "area": [
-                  "POTÊNCIA"
-            ],
+            "area": "POTÊNCIA",
             "subarea": "MOTORES",
             "maximo_semestre": 10
       },
@@ -687,9 +622,7 @@
                   "AI",
                   "MDO"
             ],
-            "area": [
-                  "COMPUTAÇÃO"
-            ],
+            "area": "COMPUTAÇÃO",
             "subarea": "FULLSTACK",
             "maximo_semestre": 10
       },
@@ -702,9 +635,7 @@
                   "OFFICE"
             ],
             "diferenciais": [],
-            "area": [
-                  "POTÊNCIA"
-            ],
+            "area": "POTÊNCIA",
             "subarea": "REGULAÇÃO",
             "maximo_semestre": 7
       },
@@ -719,9 +650,7 @@
                   "OFFICE",
                   "INGLÊS INTERMEDIÁRIO"
             ],
-            "area": [
-                  "POTÊNCIA"
-            ],
+            "area": "POTÊNCIA",
             "subarea": "SOLAR",
             "maximo_semestre": 8
       },
@@ -732,9 +661,7 @@
             "carga_horaria": 0,
             "requisitos": [],
             "diferenciais": [],
-            "area": [
-                  "GERAL"
-            ],
+            "area": "GERAL",
             "subarea": "GERAL",
             "maximo_semestre": 10
       },
@@ -748,9 +675,7 @@
                   "EXCEL"
             ],
             "diferenciais": [],
-            "area": [
-                  "POTÊNCIA"
-            ],
+            "area": "POTÊNCIA",
             "subarea": "GERAL",
             "maximo_semestre": 10
       },
@@ -764,9 +689,7 @@
                   "INGLÊS INTERMEDIÁRIO"
             ],
             "diferenciais": [],
-            "area": [
-                  "POTÊNCIA"
-            ],
+            "area": "POTÊNCIA",
             "subarea": "EQUIPAMENTOS ELÉTRICOS",
             "maximo_semestre": 8
       },
@@ -779,9 +702,7 @@
                   "INGLÊS AVANÇADO"
             ],
             "diferenciais": [],
-            "area": [
-                  "CONTROLE"
-            ],
+            "area": "CONTROLE",
             "subarea": "PRODUÇÃO",
             "maximo_semestre": 10
       },
@@ -792,9 +713,7 @@
             "carga_horaria": 0,
             "requisitos": [],
             "diferenciais": [],
-            "area": [
-                  "GERAL"
-            ],
+            "area": "GERAL",
             "subarea": "GERAL",
             "maximo_semestre": 10
       },
@@ -807,9 +726,7 @@
                   "INGLÊS AVANÇADO"
             ],
             "diferenciais": [],
-            "area": [
-                  "CONTROLE"
-            ],
+            "area": "CONTROLE",
             "subarea": "OTIMIZAÇÃO",
             "maximo_semestre": 8
       },
@@ -820,9 +737,7 @@
             "carga_horaria": 0,
             "requisitos": [],
             "diferenciais": [],
-            "area": [
-                  "POTÊNCIA"
-            ],
+            "area": "POTÊNCIA",
             "subarea": "MOTORES",
             "maximo_semestre": 10
       },
@@ -833,9 +748,7 @@
             "carga_horaria": 0,
             "requisitos": [],
             "diferenciais": [],
-            "area": [
-                  "COMPUTAÇÃO"
-            ],
+            "area": "COMPUTAÇÃO",
             "subarea": "GERAL",
             "maximo_semestre": 10
       },
@@ -846,9 +759,7 @@
             "carga_horaria": 0,
             "requisitos": [],
             "diferenciais": [],
-            "area": [
-                  "GERAL"
-            ],
+            "area": "GERAL",
             "subarea": "GERAL",
             "maximo_semestre": 10
       },
@@ -861,9 +772,7 @@
                   "OFFICE"
             ],
             "diferenciais": [],
-            "area": [
-                  "POTÊNCIA"
-            ],
+            "area": "POTÊNCIA",
             "subarea": "GERAÇÃO",
             "maximo_semestre": 10
       },
@@ -877,9 +786,7 @@
                   "ARDUINO",
                   "PROGRAMAÇÃO WEB"
             ],
-            "area": [
-                  "ELETRÔNICA"
-            ],
+            "area": "ELETRÔNICA",
             "subarea": "ENSINO",
             "maximo_semestre": 10
       },
@@ -894,9 +801,7 @@
             "diferenciais": [
                   "CIÊNCIA DE DADOS"
             ],
-            "area": [
-                  "COMPUTAÇÃO"
-            ],
+            "area": "COMPUTAÇÃO",
             "subarea": "WEB",
             "maximo_semestre": 10
       },
@@ -905,13 +810,12 @@
             "periodo": "2019.1",
             "requisito_semestre": 0,
             "carga_horaria": 30,
-            "requisitos": [],
-            "diferenciais": [],
-            "area": [
-                  "CONTROLE",
-                  "ELETRÔNICA"
+            "requisitos": [
+                  "INGLÊS INTERMEDIÁRIO"
             ],
-            "subarea": "IMAGEM MEDICAL",
+            "diferenciais": [],
+            "area": "ELETRÔNICA",
+            "subarea": "EQUIPAMENTOS",
             "maximo_semestre": 6
       },
       {
@@ -921,9 +825,7 @@
             "carga_horaria": 0,
             "requisitos": [],
             "diferenciais": [],
-            "area": [
-                  "GERAL"
-            ],
+            "area": "GERAL",
             "subarea": "GERAL",
             "maximo_semestre": 10
       },
@@ -934,9 +836,7 @@
             "carga_horaria": 0,
             "requisitos": [],
             "diferenciais": [],
-            "area": [
-                  "GERAL"
-            ],
+            "area": "GERAL",
             "subarea": "GERAL",
             "maximo_semestre": 7
       },
@@ -947,9 +847,7 @@
             "carga_horaria": 0,
             "requisitos": [],
             "diferenciais": [],
-            "area": [
-                  "GERAL"
-            ],
+            "area": "GERAL",
             "subarea": "GERAL",
             "maximo_semestre": 10
       },
@@ -960,9 +858,7 @@
             "carga_horaria": 0,
             "requisitos": [],
             "diferenciais": [],
-            "area": [
-                  "GERAL"
-            ],
+            "area": "GERAL",
             "subarea": "GERAL",
             "maximo_semestre": 10
       },
@@ -973,9 +869,7 @@
             "carga_horaria": 0,
             "requisitos": [],
             "diferenciais": [],
-            "area": [
-                  "GERAL"
-            ],
+            "area": "GERAL",
             "subarea": "GERAL",
             "maximo_semestre": 10
       },
@@ -988,9 +882,7 @@
                   "INGLÊS INTERMEDIÁRIO"
             ],
             "diferenciais": [],
-            "area": [
-                  "CONTROLE"
-            ],
+            "area": "CONTROLE",
             "subarea": "PRODUÇÃO",
             "maximo_semestre": 7
       },
@@ -1001,9 +893,7 @@
             "carga_horaria": 0,
             "requisitos": [],
             "diferenciais": [],
-            "area": [
-                  "GERAL"
-            ],
+            "area": "GERAL",
             "subarea": "GERAL",
             "maximo_semestre": 10
       },
@@ -1014,9 +904,7 @@
             "carga_horaria": 0,
             "requisitos": [],
             "diferenciais": [],
-            "area": [
-                  "GERAL"
-            ],
+            "area": "GERAL",
             "subarea": "GERAL",
             "maximo_semestre": 10
       },
@@ -1029,9 +917,7 @@
                   "EXCEL"
             ],
             "diferenciais": [],
-            "area": [
-                  "POTÊNCIA"
-            ],
+            "area": "POTÊNCIA",
             "subarea": "ENERGIA SOLAR",
             "maximo_semestre": 10
       },
@@ -1042,9 +928,7 @@
             "carga_horaria": 30,
             "requisitos": [],
             "diferenciais": [],
-            "area": [
-                  "GERAL"
-            ],
+            "area": "GERAL",
             "subarea": "GERAL",
             "maximo_semestre": 10
       },
@@ -1063,9 +947,7 @@
                   "MODELO RELACIONAL",
                   "SQL"
             ],
-            "area": [
-                  "CONSULTORIA"
-            ],
+            "area": "CONSULTORIA",
             "subarea": "GERAL",
             "maximo_semestre": 10
       },
@@ -1079,9 +961,7 @@
                   "PROGRAMAÇÃO"
             ],
             "diferenciais": [],
-            "area": [
-                  "COMPUTAÇÃO"
-            ],
+            "area": "COMPUTAÇÃO",
             "subarea": "SISTEMAS",
             "maximo_semestre": 10
       },
@@ -1097,9 +977,7 @@
             "diferenciais": [
                   "ATIVIDADES EXTRACURRICULARES"
             ],
-            "area": [
-                  "GERAL"
-            ],
+            "area": "GERAL",
             "subarea": "GERAL",
             "maximo_semestre": 10
       },
@@ -1114,9 +992,7 @@
             "diferenciais": [
                   "INTERCÂMBIO"
             ],
-            "area": [
-                  "POTÊNCIA"
-            ],
+            "area": "POTÊNCIA",
             "subarea": "GERAL",
             "maximo_semestre": 6
       },
@@ -1127,9 +1003,7 @@
             "carga_horaria": 20,
             "requisitos": [],
             "diferenciais": [],
-            "area": [
-                  "GERAL"
-            ],
+            "area": "GERAL",
             "subarea": "GERAL",
             "maximo_semestre": 10
       },
@@ -1143,9 +1017,7 @@
                   "PROGRAMAÇÃO"
             ],
             "diferenciais": [],
-            "area": [
-                  "COMPUTAÇÃO"
-            ],
+            "area": "COMPUTAÇÃO",
             "subarea": "SISTEMAS",
             "maximo_semestre": 10
       },
@@ -1159,9 +1031,7 @@
                   "OFFICE"
             ],
             "diferenciais": [],
-            "area": [
-                  "GERAL"
-            ],
+            "area": "GERAL",
             "subarea": "GERAL",
             "maximo_semestre": 8
       },
@@ -1174,9 +1044,7 @@
                   "INGLÊS INTERMEDIÁRIO"
             ],
             "diferenciais": [],
-            "area": [
-                  "POTÊNCIA"
-            ],
+            "area": "POTÊNCIA",
             "subarea": "GERAL",
             "maximo_semestre": 8
       },
@@ -1189,9 +1057,7 @@
                   "INGLÊS INTERMEDIÁRIO"
             ],
             "diferenciais": [],
-            "area": [
-                  "POTÊNCIA"
-            ],
+            "area": "POTÊNCIA",
             "subarea": "GERAL",
             "maximo_semestre": 10
       },
@@ -1202,9 +1068,7 @@
             "carga_horaria": 0,
             "requisitos": [],
             "diferenciais": [],
-            "area": [
-                  "GERAL"
-            ],
+            "area": "GERAL",
             "subarea": "GERAL",
             "maximo_semestre": 10
       },
@@ -1215,9 +1079,7 @@
             "carga_horaria": 0,
             "requisitos": [],
             "diferenciais": [],
-            "area": [
-                  "GERAL"
-            ],
+            "area": "GERAL",
             "subarea": "GERAL",
             "maximo_semestre": 10
       },
@@ -1232,9 +1094,7 @@
                   "AUTOCAD"
             ],
             "diferenciais": [],
-            "area": [
-                  "POTÊNCIA"
-            ],
+            "area": "POTÊNCIA",
             "subarea": "INSTALAÇÕES ELÉTRICAS",
             "maximo_semestre": 10
       },
@@ -1245,9 +1105,7 @@
             "carga_horaria": 0,
             "requisitos": [],
             "diferenciais": [],
-            "area": [
-                  "GERAL"
-            ],
+            "area": "GERAL",
             "subarea": "GERAL",
             "maximo_semestre": 10
       },
@@ -1261,9 +1119,7 @@
                   "INGLÊS INTERMEDIÁRIO"
             ],
             "diferenciais": [],
-            "area": [
-                  "CONSULTORIA"
-            ],
+            "area": "CONSULTORIA",
             "subarea": "ANÁLISE DE CONTRATOS",
             "maximo_semestre": 10
       },
@@ -1274,9 +1130,7 @@
             "carga_horaria": 0,
             "requisitos": [],
             "diferenciais": [],
-            "area": [
-                  "GERAL"
-            ],
+            "area": "GERAL",
             "subarea": "GERAL",
             "maximo_semestre": 10
       },
@@ -1287,9 +1141,7 @@
             "carga_horaria": 30,
             "requisitos": [],
             "diferenciais": [],
-            "area": [
-                  "GERAL"
-            ],
+            "area": "GERAL",
             "subarea": "GERAL",
             "maximo_semestre": 10
       }
