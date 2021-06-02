@@ -18,6 +18,8 @@ import pandas as pd
 import numpy as np
 import plotly.express as px
 import plotly.graph_objects as go
+import matplotlib.pyplot as plt
+from wordcloud import WordCloud, STOPWORDS
 
 dados_df = pd.read_json('estagio_data.json', encoding='UTF-8')
 
@@ -119,9 +121,11 @@ st.write(
     'Semestre 0 significa que não há requisito mínimo de semestre e semestre 10 significa que não há limite de semestralização máximo.'
 )
 # Manipulação de dados
-index_semestres = [0,1,2,3,4,5,6,7,8,9,10]
-requisito_semestre = dados_df['requisito_semestre'].value_counts(normalize=True).reindex(index_semestres, fill_value=0)
-maximo_semestre = dados_df['maximo_semestre'].value_counts(normalize=True).reindex(index_semestres, fill_value=0)
+index_semestres = [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10]
+requisito_semestre = dados_df['requisito_semestre'].value_counts(
+    normalize=True).reindex(index_semestres, fill_value=0)
+maximo_semestre = dados_df['maximo_semestre'].value_counts(
+    normalize=True).reindex(index_semestres, fill_value=0)
 
 st.subheader('3.1. Semestralização Mínima')
 st.write(
@@ -132,22 +136,27 @@ st.write(
 )
 
 fig_requisito_semestre = go.Figure()
-fig_requisito_semestre.add_trace(go.Bar(
-    x=index_semestres,
-    y=requisito_semestre,
-    name='Requisito Semestre',
-))
-fig_requisito_semestre.update_traces(text=requisito_semestre,
-                                   texttemplate='%{text:.3p}',
-                                   textposition="outside",
-                                   hovertemplate='Porcentagem de anuncios: %{y:.3p}' +
-                                   '<br>Semestre: %{x}<br><extra></extra>')
-fig_requisito_semestre.update_layout(margin=dict(l=20, r=20, b=20, t=20, pad=5),
-                                   height=400,
-                                   paper_bgcolor='rgba(0,0,0,0)',
-                                   plot_bgcolor='rgba(0,0,0,0)')
+fig_requisito_semestre.add_trace(
+    go.Bar(
+        x=index_semestres,
+        y=requisito_semestre,
+        name='Requisito Semestre',
+    ))
+fig_requisito_semestre.update_traces(
+    text=requisito_semestre,
+    texttemplate='%{text:.3p}',
+    textposition="outside",
+    hovertemplate='Porcentagem de anuncios: %{y:.3p}' +
+    '<br>Semestre: %{x}<br><extra></extra>')
+fig_requisito_semestre.update_layout(margin=dict(l=20, r=20, b=20, t=20,
+                                                 pad=5),
+                                     height=400,
+                                     paper_bgcolor='rgba(0,0,0,0)',
+                                     plot_bgcolor='rgba(0,0,0,0)')
 fig_requisito_semestre.update_yaxes(tickformat='%{text:.3p}')
-fig_requisito_semestre.update_xaxes(dtick=1, showticksuffix='all', ticksuffix="°")
+fig_requisito_semestre.update_xaxes(dtick=1,
+                                    showticksuffix='all',
+                                    ticksuffix="°")
 
 st.plotly_chart(fig_requisito_semestre,
                 use_container_width=True,
@@ -159,20 +168,22 @@ st.write(
 )
 
 fig_maximo_semestre = go.Figure()
-fig_maximo_semestre.add_trace(go.Bar(
-    x=index_semestres,
-    y=maximo_semestre,
-    name='Requisito Semestre',
-))
-fig_maximo_semestre.update_traces(text=maximo_semestre,
-                                   texttemplate='%{text:.3p}',
-                                   textposition="outside",
-                                   hovertemplate='Porcentagem de anuncios: %{y:.3p}' +
-                                   '<br>Semestre: %{x}<br><extra></extra>')
+fig_maximo_semestre.add_trace(
+    go.Bar(
+        x=index_semestres,
+        y=maximo_semestre,
+        name='Requisito Semestre',
+    ))
+fig_maximo_semestre.update_traces(
+    text=maximo_semestre,
+    texttemplate='%{text:.3p}',
+    textposition="outside",
+    hovertemplate='Porcentagem de anuncios: %{y:.3p}' +
+    '<br>Semestre: %{x}<br><extra></extra>')
 fig_maximo_semestre.update_layout(margin=dict(l=20, r=20, b=20, t=20, pad=5),
-                                   height=400,
-                                   paper_bgcolor='rgba(0,0,0,0)',
-                                   plot_bgcolor='rgba(0,0,0,0)')
+                                  height=400,
+                                  paper_bgcolor='rgba(0,0,0,0)',
+                                  plot_bgcolor='rgba(0,0,0,0)')
 fig_maximo_semestre.update_yaxes(tickformat='%{text:.3p}')
 fig_maximo_semestre.update_xaxes(dtick=1, showticksuffix='all', ticksuffix="°")
 
@@ -180,22 +191,132 @@ st.plotly_chart(fig_maximo_semestre,
                 use_container_width=True,
                 **{'config': config_plotly})
 
-st.header('4. Requisitos mais comuns')
-st.write('**@TODO: Barplot horizontal mostrando requisitos mais comuns**')
+st.header('4. Pré-requisitos e diferenciais')
+
+st.subheader('4.1. Pré-requisitos mais comuns')
+st.write(
+    'A seguir, observou-se os pré-requisitos mais comuns pedidos pelas empresas:'
+)
+requisitos = pd.Series([
+    item for sublist in dados_df.requisitos for item in sublist
+]).value_counts()
+
+fig_requisitos = go.Figure(
+    data=[go.Bar(y=requisitos.index, x=requisitos, orientation='h')])
+fig_requisitos.update_traces(text=requisitos,
+                             textposition="outside",
+                             hovertemplate='N° de anuncios: %{x}' +
+                             '<br>Pré-requisito: %{y}<br><extra></extra>')
+fig_requisitos.update_yaxes(autorange="reversed")
+fig_requisitos.update_layout(margin=dict(l=0, r=0, b=20, t=20, pad=5),
+                             height=500,
+                             paper_bgcolor='rgba(0,0,0,0)',
+                             plot_bgcolor='rgba(0,0,0,0)')
+
+st.plotly_chart(fig_requisitos,
+                use_container_width=True,
+                **{'config': config_plotly})
+
+st.write(
+    'Verificou-se também a proporção entre empresas que pedem pré-requisitos nos anuncios de estágio e aquelas que não o fazem. Neste caso, mais da metade das empresas não demandam nenhum pré-requisito.'
+)
+# Contagem da quantidade de empresas que pedem pré-requisitos vs Empresas que não o fazem
+presenca_requisito_dict = {'Sem pré-requisitos': 0, 'Com pré-requisitos': 0}
+for requisito in dados_df['requisitos']:
+    if len(requisito):
+        presenca_requisito_dict['Com pré-requisitos'] += 1
+    else:
+        presenca_requisito_dict['Sem pré-requisitos'] += 1
+df_presenca_requisito = pd.DataFrame.from_dict(presenca_requisito_dict,
+                                               orient='index',
+                                               columns=['contagem'])
+
+fig_presenca_requisito = go.Figure(data=[
+    go.Pie(labels=df_presenca_requisito.index,
+           values=df_presenca_requisito['contagem'],
+           textinfo='label+percent',
+           insidetextorientation='radial',
+           marker_colors=['#EF553B', '#636EFA'])
+])
+fig_presenca_requisito.update_traces(hovertemplate='Área: %{label}' +
+                                     '<br>Contagem: %{value}' +
+                                     '<br>%{percent}<extra></extra>',
+                                     textposition='outside')
+fig_presenca_requisito.update_layout(margin=dict(l=20, r=20, b=20, t=20,
+                                                 pad=0),
+                                     height=400,
+                                     paper_bgcolor='rgba(0,0,0,0)',
+                                     plot_bgcolor='rgba(0,0,0,0)',
+                                     uniformtext_minsize=12,
+                                     uniformtext_mode='hide',
+                                     showlegend=False)
+st.plotly_chart(fig_presenca_requisito,
+                use_container_width=True,
+                **{'config': config_plotly})
+
 st.write('**@TODO: Tabela filtrando requisitos mais comuns por ÁREA**')
 
-st.header('Diferenciais mais comuns')
-st.write('**@TODO: Barplot horizontal mostrando diferenciais mais comuns**')
+st.subheader('4.2. Diferenciais mais comuns')
+st.write(
+    'Abaixo estão relacionados os diferenciais mais comuns, habilidades opcionais que concedem ao candidato uma vantagem em relação aos seus pares'
+)
+diferenciais = pd.Series([
+    item for sublist in dados_df.diferenciais for item in sublist
+]).value_counts()
 
-st.header('Carga Horária')
-st.write('**@TODO: Barplot vertical mostrando cargas horárias**')
+fig_diferenciais = go.Figure(
+    data=[go.Bar(y=diferenciais.index, x=diferenciais, orientation='h')])
+fig_diferenciais.update_traces(text=diferenciais,
+                               textposition="outside",
+                               hovertemplate='N° de anuncios: %{x}' +
+                               '<br>Diferencial: %{y}<br><extra></extra>')
+fig_diferenciais.update_yaxes(autorange="reversed")
+fig_diferenciais.update_layout(margin=dict(l=0, r=0, b=20, t=20, pad=5),
+                               height=800,
+                               paper_bgcolor='rgba(0,0,0,0)',
+                               plot_bgcolor='rgba(0,0,0,0)')
 
-st.header('Ofertas por Empresa')
+st.plotly_chart(fig_diferenciais,
+                use_container_width=True,
+                **{'config': config_plotly})
+
+st.header('Carga Horária Semanal')
+st.write(
+    'Em relação a carga horária dos estágios ofertados, a maioria dos anuncios de estágio não informam a carga horária requisitada ou possuem carga horária fléxivel.'
+)
+st.write(
+    'Mais de 1/4 dos anuncios possuem a carga horária de 30 horas semanais, seguida das 20 horas semanais.'
+)
+dados_carga = dados_df['carga_horaria'].value_counts()
+dados_carga = dados_carga.add_suffix('h')
+dados_carga.rename(index={'0h': 'N/A'}, inplace=True)
+fig_cargah = go.Figure(data=[
+    go.Pie(labels=dados_carga.index,
+           values=dados_carga,
+           textinfo='label+percent',
+           insidetextorientation='radial')
+])
+fig_cargah.update_traces(hovertemplate='Carga Horária: %{label}' +
+                         '<br>Contagem: %{value}' +
+                         '<br>%{percent}<extra></extra>',
+                         textposition='outside')
+fig_cargah.update_layout(margin=dict(l=20, r=20, b=20, t=20, pad=0),
+                         height=400,
+                         paper_bgcolor='rgba(0,0,0,0)',
+                         plot_bgcolor='rgba(0,0,0,0)',
+                         uniformtext_minsize=12,
+                         uniformtext_mode='hide',
+                         showlegend=False)
+st.plotly_chart(fig_cargah,
+                use_container_width=True,
+                **{'config': config_plotly})
+
+st.header('5. Ofertas por Empresa')
 st.write(
     '**@TODO: Barplot horizontal ou lista com empresas com mais ofertas de estágio**'
 )
 st.write(
-    '**@TODO: Pesquise abaixo o nome da empresa para ver todos os seus anuncios de estágio**'
+    'Pesquise abaixo o nome da empresa para ver todos os seus anuncios de estágio'
 )
 
 st.header(

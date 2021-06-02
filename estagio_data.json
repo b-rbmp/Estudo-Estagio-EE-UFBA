@@ -66,7 +66,7 @@
             "maximo_semestre": 10
       },
       {
-            "empresa": "M.Dias Branco",
+            "empresa": "M.DIAS BRANCO",
             "periodo": "2021.1",
             "requisito_semestre": 0,
             "carga_horaria": 0,
@@ -165,7 +165,7 @@
             ],
             "diferenciais": [
                   "LUMINE V4",
-                  "PROJETO DE INSTALAÇÕES ELÉTRICAS INDUSTRIAIS"
+                  "INSTALAÇÕES ELÉTRICAS INDUSTRIAIS"
             ],
             "area": "POTÊNCIA",
             "subarea": "INSTALAÇÕES ELÉTRICAS",
@@ -203,7 +203,7 @@
             "empresa": "GOVBA",
             "periodo": "2021.1",
             "requisito_semestre": 5,
-            "carga_horaria": 0,
+            "carga_horaria": 20,
             "requisitos": [],
             "diferenciais": [],
             "area": "GERAL",
@@ -618,9 +618,9 @@
                   "INGLÊS INTERMEDIÁRIO"
             ],
             "diferenciais": [
-                  "ML",
-                  "AI",
-                  "MDO"
+                  "MACHINE LEARNING",
+                  "INTELIGÊNCIA ARTIFICIAL",
+                  "MULTI-DOMAIN OPERATIONS"
             ],
             "area": "COMPUTAÇÃO",
             "subarea": "FULLSTACK",
@@ -697,7 +697,7 @@
             "empresa": "ENGEPACK EMBALAGENS",
             "periodo": "2019.1",
             "requisito_semestre": 6,
-            "carga_horaria": 34,
+            "carga_horaria": 35,
             "requisitos": [
                   "INGLÊS AVANÇADO"
             ],
@@ -955,7 +955,7 @@
             "empresa": "ENGEPACK EMBALAGENS",
             "periodo": "2018.2",
             "requisito_semestre": 4,
-            "carga_horaria": 34,
+            "carga_horaria": 35,
             "requisitos": [
                   "SQL",
                   "PROGRAMAÇÃO"
@@ -1011,7 +1011,7 @@
             "empresa": "ENGEPACK EMBALAGENS",
             "periodo": "2018.1",
             "requisito_semestre": 5,
-            "carga_horaria": 34,
+            "carga_horaria": 35,
             "requisitos": [
                   "SQL",
                   "PROGRAMAÇÃO"
