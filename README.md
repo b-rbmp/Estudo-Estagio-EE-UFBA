@@ -5,7 +5,7 @@
 <p>
   Um estudo quantificativo realizado para analisar os anuncios de estágio recebidos entre os semestres 2016.1 e 2021.1 
   através do Centro de Atendimento à Graduação - CEAG Politecnica e Colegiado de Engenharia Elétrica com 
-  vagas para Engenharia Elétrica/Eletrônica. O WebApp foi realizado utilizando a biblioteca de visualização de dados através de WebApp <a href="https://streamlit.io/">Streamlit</a>
+  vagas para Engenharia Elétrica/Eletrônica. O WebApp foi realizado utilizando a biblioteca de visualização de dados <a href="https://streamlit.io/">Streamlit</a>
 </p>
 
 <h2>
