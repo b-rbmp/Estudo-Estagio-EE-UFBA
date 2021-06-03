@@ -337,7 +337,7 @@ fig_presenca_requisito = go.Figure(data=[
            insidetextorientation='radial',
            marker_colors=['#EF553B', '#636EFA'])
 ])
-fig_presenca_requisito.update_traces(hovertemplate='Área: %{label}' +
+fig_presenca_requisito.update_traces(hovertemplate='%{label}' +
                                      '<br>Contagem: %{value}' +
                                      '<br>%{percent}<extra></extra>',
                                      textposition='outside')
