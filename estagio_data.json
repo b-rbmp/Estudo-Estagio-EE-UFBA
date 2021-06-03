@@ -22,7 +22,7 @@
             "maximo_semestre": 10
       },
       {
-            "empresa": "NUBE - CROMEX (?)",
+            "empresa": "NUBE(N/A)",
             "periodo": "2021.1",
             "requisito_semestre": 0,
             "carga_horaria": 35,
@@ -302,6 +302,17 @@
                   "OFFICE",
                   "INGLÊS AVANÇADO"
             ],
+            "diferenciais": [],
+            "area": "GERAL",
+            "subarea": "GERAL",
+            "maximo_semestre": 10
+      },
+      {
+            "empresa": "BRASKEM",
+            "periodo": "2020.2",
+            "requisito_semestre": 3,
+            "carga_horaria": 0,
+            "requisitos": [],
             "diferenciais": [],
             "area": "GERAL",
             "subarea": "GERAL",
@@ -1096,6 +1107,17 @@
             "diferenciais": [],
             "area": "POTÊNCIA",
             "subarea": "INSTALAÇÕES ELÉTRICAS",
+            "maximo_semestre": 10
+      },
+      {
+            "empresa": "BAHIAGÁS",
+            "periodo": "2017.1",
+            "requisito_semestre": 0,
+            "carga_horaria": 0,
+            "requisitos": [],
+            "diferenciais": [],
+            "area": "GERAL",
+            "subarea": "GERAL",
             "maximo_semestre": 10
       },
       {
