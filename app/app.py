@@ -56,7 +56,7 @@ def load_data():
 dados_df = load_data()
 
 # Desativa o modebar
-config_plotly = {'displayModeBar': False}
+config_plotly = {'displayModeBar': False, 'staticPlot': True}
 
 # SIDEBAR
 st.sidebar.title('Índice do Estudo:')
