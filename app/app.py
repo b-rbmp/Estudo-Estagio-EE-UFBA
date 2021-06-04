@@ -68,34 +68,34 @@ st.sidebar.markdown(
     '<a class="toc-header" href="#2-ofertas-de-est-gio-por-rea-sub-rea">2. Ofertas de estágio por Área/Subárea</a>',
     unsafe_allow_html=True)
 st.sidebar.markdown(
-    '<span>- </span><a class="toc-sub-header" href="#2-1-divis-o-de-ofertas-por-rea">2.1. Divisão de ofertas por área</a>',
+    '<span>&nbsp;&nbsp;</span><a class="toc-sub-header" href="#2-1-divis-o-de-ofertas-por-rea">2.1. Divisão de ofertas por área</a>',
     unsafe_allow_html=True)
 st.sidebar.markdown(
-    '<span>- </span><a class="toc-sub-header" href="#2-2-divis-o-por-sub-rea">2.2. Divisão por Subárea</a>',
+    '<span>&nbsp;&nbsp;</span><a class="toc-sub-header" href="#2-2-divis-o-por-sub-rea">2.2. Divisão por Subárea</a>',
     unsafe_allow_html=True)
 st.sidebar.markdown(
     '<a class="toc-header" href="#3-requisitos-de-semestraliza-o">3. Requisitos de Semestralização</a>',
     unsafe_allow_html=True)
 st.sidebar.markdown(
-    '<span>- </span><a class="toc-sub-header" href="#3-1-semestraliza-o-m-nima">3.1. Semestralização Mínima</a>',
+    '<span>&nbsp;&nbsp;</span><a class="toc-sub-header" href="#3-1-semestraliza-o-m-nima">3.1. Semestralização Mínima</a>',
     unsafe_allow_html=True)
 st.sidebar.markdown(
-    '<span>- </span><a class="toc-sub-header" href="#3-2-semestraliza-o-m-xima">3.2. Semestralização Máxima</a>',
+    '<span>&nbsp;&nbsp;</span><a class="toc-sub-header" href="#3-2-semestraliza-o-m-xima">3.2. Semestralização Máxima</a>',
     unsafe_allow_html=True)
 st.sidebar.markdown(
     '<a class="toc-header" href="#4-pr-requisitos-e-diferenciais">4. Pré-requisitos e diferenciais</a>',
     unsafe_allow_html=True)
 st.sidebar.markdown(
-    '<span>- </span><a class="toc-sub-header" href="#4-1-pr-requisitos-mais-comuns">4.1. Pré-requisitos mais comuns</a>',
+    '<span>&nbsp;&nbsp;</span><a class="toc-sub-header" href="#4-1-pr-requisitos-mais-comuns">4.1. Pré-requisitos mais comuns</a>',
     unsafe_allow_html=True)
 st.sidebar.markdown(
-    '<span>- </span><a class="toc-sub-header" href="#4-2-exist-ncia-de-pr-requisitos">4.2. Existência de Pré-requisitos</a>',
+    '<span>&nbsp;&nbsp;</span><a class="toc-sub-header" href="#4-2-exist-ncia-de-pr-requisitos">4.2. Existência de Pré-requisitos</a>',
     unsafe_allow_html=True)
 st.sidebar.markdown(
-    '<span>- </span><a class="toc-sub-header" href="#4-3-pr-requisitos-filtrados-por-rea-de-atua-o">4.3. Pré-requisitos filtrados por área de atuação</a>',
+    '<span>&nbsp;&nbsp;</span><a class="toc-sub-header" href="#4-3-pr-requisitos-filtrados-por-rea-de-atua-o">4.3. Pré-requisitos filtrados por área de atuação</a>',
     unsafe_allow_html=True)
 st.sidebar.markdown(
-    '<span>- </span><a class="toc-sub-header" href="#4-4-diferenciais-mais-comuns">4.4. Diferenciais mais comuns</a>',
+    '<span>&nbsp;&nbsp;</span><a class="toc-sub-header" href="#4-4-diferenciais-mais-comuns">4.4. Diferenciais mais comuns</a>',
     unsafe_allow_html=True)
 st.sidebar.markdown(
     '<a class="toc-header" href="#5-carga-hor-ria-semanal">5. Carga Horária Semanal</a>',
@@ -120,7 +120,7 @@ st.write(
     'As informações utilizadas são aquelas tiradas dos anuncios/flyers/sites de processo seletivo, sendo que para grandes empresas foi feito uma pesquisa no linkedin OU google para observar se as empresas ofereciam vagas de estágio em áreas relacionadas a engenharia elétrica'
 )
 st.write(
-    'Considerou-se também o período (semestre) com a data limite para envio do currículo/inscrição no Processo Seletivo, e para os requisito ou máximo semestre matriculado, as vezes é utilizado o periodo pedido em relação a previsão de formatura.'
+    'Considerou-se também o período (semestre) com a data limite para envio do currículo/inscrição no Processo Seletivo, e para os requisito ou máximo semestre matriculado, as vezes é utilizado o periodo pedido em relação a previsão de formatura'
 )
 st.markdown('Link para o repositório GitHub: [Clique Aqui](https://github.com/b-rbmp/Estudo-Estagio-EE-UFBA "Repositório GitHub")')
 
@@ -153,10 +153,10 @@ st.header('2. Ofertas de estágio por Área/Subárea')
 
 st.subheader('2.1. Divisão de ofertas por área')
 st.write(
-    'Observa-se uma predominância de ofertas de estágio sem especificação da vaga (Geral), com quase metade dos anuncios nesta categoria. Não é uma surpresa, pois a maioria das grandes empresas abrem um processo seletivo genérico, abrindo para todas engenharias e outros cursos.'
+    'Observa-se uma predominância de ofertas de estágio sem especificação da vaga (Geral), com quase metade dos anuncios nesta categoria. Não é uma surpresa, pois a maioria das grandes empresas abrem um processo seletivo genérico, abrindo para todas engenharias e outros cursos'
 )
 st.write(
-    'Por outro lado, das empresas que selecionam estagiários para vagas específicas, a área de potência é a mais requisitada, com mais de 1/4 dos anuncios para esta área, seguido de controle, eletrônica e computação.'
+    'Por outro lado, das empresas que selecionam estagiários para vagas específicas, a área de potência é a mais requisitada, com mais de 1/4 dos anuncios para esta área, seguido de controle, eletrônica e computação'
 )
 
 # Conta o número de ofertas por área
@@ -204,7 +204,7 @@ st.plotly_chart(fig_subarea,
 
 st.header('3. Requisitos de Semestralização')
 st.write(
-    'Nesta seção, foram considerados equivalentes os requisitos de previsão de formatura e semestralização. Quando informado a previsão de formatura desejada pela empresa, este foi convertido em semestralização considerando o semestre em que o anuncio foi feito.'
+    'Nesta seção, foram considerados equivalentes os requisitos de previsão de formatura e semestralização. Quando informado a previsão de formatura desejada pela empresa, este foi convertido em semestralização considerando o semestre em que o anuncio foi feito'
 )
 st.write(
     'Semestre 0 significa que não há requisito mínimo de semestre e semestre 10 significa que não há limite de semestralização máximo. Lembrando que são considerados os dados informados pelas empresas, desconsiderando as limitações semestrais impostos pela UFBA'
@@ -299,12 +299,12 @@ requisitos = pd.Series([
 fig_requisitos = go.Figure(
     data=[go.Bar(y=requisitos.index, x=requisitos, orientation='h')])
 fig_requisitos.update_traces(text=requisitos,
-                             textposition="outside",
+                             textposition="inside",
                              hovertemplate='N° de anuncios: %{x}' +
                              '<br>Pré-requisito: %{y}<br><extra></extra>')
 fig_requisitos.update_yaxes(autorange="reversed")
 fig_requisitos.update_layout(margin=dict(l=0, r=0, b=20, t=20, pad=5),
-                             height=500,
+                             height=800,
                              paper_bgcolor='rgba(0,0,0,0)',
                              plot_bgcolor='rgba(0,0,0,0)')
 
@@ -314,7 +314,7 @@ st.plotly_chart(fig_requisitos,
 
 st.subheader('4.2. Existência de Pré-requisitos')
 st.write(
-    'Verificou-se também a proporção entre empresas que pedem pré-requisitos nos anuncios de estágio e aquelas que não o fazem. Neste caso, mais da metade das empresas não demandam nenhum pré-requisito.'
+    'Verificou-se também a proporção entre empresas que pedem pré-requisitos nos anuncios de estágio e aquelas que não o fazem. Neste caso, mais da metade das empresas não demandam nenhum pré-requisito'
 )
 
 # Contagem da quantidade de empresas que pedem pré-requisitos vs Empresas que não o fazem
@@ -339,7 +339,7 @@ fig_presenca_requisito = go.Figure(data=[
 fig_presenca_requisito.update_traces(hovertemplate='%{label}' +
                                      '<br>Contagem: %{value}' +
                                      '<br>%{percent}<extra></extra>',
-                                     textposition='outside')
+                                     textposition='inside')
 fig_presenca_requisito.update_layout(margin=dict(l=20, r=20, b=20, t=20,
                                                  pad=0),
                                      height=400,
@@ -369,7 +369,7 @@ fig_requisitos_filtrado = go.Figure(data=[
 ])
 fig_requisitos_filtrado.update_traces(
     text=requisitos_filtrado,
-    textposition="outside",
+    textposition="inside",
     hovertemplate='N° de anuncios: %{x}' +
     '<br>Pré-requisito: %{y}<br><extra></extra>')
 fig_requisitos_filtrado.update_yaxes(autorange="reversed")
@@ -396,12 +396,12 @@ diferenciais = pd.Series([
 fig_diferenciais = go.Figure(
     data=[go.Bar(y=diferenciais.index, x=diferenciais, orientation='h')])
 fig_diferenciais.update_traces(text=diferenciais,
-                               textposition="outside",
+                               textposition="inside",
                                hovertemplate='N° de anuncios: %{x}' +
                                '<br>Diferencial: %{y}<br><extra></extra>')
 fig_diferenciais.update_yaxes(autorange="reversed")
 fig_diferenciais.update_layout(margin=dict(l=0, r=0, b=20, t=20, pad=5),
-                               height=800,
+                               height=1200,
                                paper_bgcolor='rgba(0,0,0,0)',
                                plot_bgcolor='rgba(0,0,0,0)')
 
@@ -411,10 +411,10 @@ st.plotly_chart(fig_diferenciais,
 
 st.header('5. Carga Horária Semanal')
 st.write(
-    'Em relação a carga horária dos estágios ofertados, a maioria dos anuncios de estágio não informam a carga horária requisitada ou possuem carga horária fléxivel.'
+    'Em relação a carga horária dos estágios ofertados, a maioria dos anuncios de estágio não informam a carga horária requisitada ou possuem carga horária fléxivel'
 )
 st.write(
-    'Mais de 1/4 dos anuncios possuem a carga horária de 30 horas semanais, seguida das 20 horas semanais.'
+    'Mais de 1/4 dos anuncios possuem a carga horária de 30 horas semanais, seguida das 20 horas semanais'
 )
 
 # Pega as cargas horárias e os formata para melhor visualização
@@ -464,6 +464,7 @@ wordcloud_empresa = WordCloud(
     collocations=False,
 ).generate_from_frequencies(dados_por_empresa)
 st.image(wordcloud_empresa.to_array(), use_column_width='always')
+st.write('No total, são **' + str(len(dados_df['empresa'].unique())) + '** empresas que realizaram **' + str(len(dados_df['empresa'])) + '** anuncios de estágio pelos canais de comunicação estudados')
 st.write('')
 
 st.header('7. Navegação pelos dados')
