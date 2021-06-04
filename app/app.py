@@ -20,7 +20,6 @@ de inscrição ou nos flyers) """
 from typing import Dict
 import streamlit as st
 import pandas as pd
-import numpy as np
 import plotly.express as px
 import plotly.graph_objects as go
 from wordcloud import WordCloud, STOPWORDS
