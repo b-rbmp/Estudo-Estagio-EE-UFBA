@@ -1,6 +1,6 @@
 # Estudo-Estagio-EE-UFBA
 
-<h2><a href="https://b-rbmp.github.io/">Clique aqui para visitar - EM BREVE</a></h2>
+<h2><a href="https://estudo-estagio-ee-ufba.herokuapp.com/">Clique aqui para visitar</a></h2>
 
 <p>
   Um estudo quantificativo realizado para analisar os anuncios de estágio recebidos entre os semestres 2016.1 e 2021.1 
@@ -24,4 +24,4 @@
   Dados:
 </h2>
 
-<p>Os dados estão compactados no arquivo <a href="https://github.com/b-rbmp/Estudo-Estagio-EE-UFBA/blob/main/estagio_data.json">estagio_data.json</a>
+<p>Os dados estão compactados no arquivo <a href="https://github.com/b-rbmp/Estudo-Estagio-EE-UFBA/blob/main/app/estagio_data.json">estagio_data.json</a>
