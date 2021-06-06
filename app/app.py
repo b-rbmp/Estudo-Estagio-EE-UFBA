@@ -207,7 +207,7 @@ st.write(
     'Nesta seção, foram considerados equivalentes os requisitos de previsão de formatura e semestralização. Quando informado a previsão de formatura desejada pela empresa, este foi convertido em semestralização considerando o semestre em que o anuncio foi feito'
 )
 st.write(
-    'Semestre 0 significa que não há requisito mínimo de semestre e semestre 10 significa que não há limite de semestralização máximo. Lembrando que são considerados os dados informados pelas empresas, desconsiderando as limitações semestrais impostos pela UFBA'
+    'Semestre 0 significa que não há requisito mínimo de semestre e semestre 10 significa que não há limite de semestralização máximo. Lembrando que são considerados os dados informados pelas empresas, desconsiderando as limitações semestrais impostas pela UFBA'
 )
 
 # Manipulação de dados contando o numero de anuncios por semestre e preenchendo os semestres sem anuncios com zeros
@@ -222,7 +222,7 @@ st.write(
     'Em relação a semestralização mínima, pouco mais de 1/3 das ofertas de estágio não demandam um semestre mínimo, permitindo a inscrição de estudantes em início do curso'
 )
 st.write(
-    'Por outro lado, observou-se 1/4 das empresas requerem semestralização minima do quinto semestre e outros 1/4 no sexto semestre, excluindo dos processos seletivos os estudantes matriculados nos semestres iniciais'
+    'Por outro lado, observou-se que 1/4 das empresas requerem semestralização minima do quinto semestre e outros 1/4 no sexto semestre, excluindo dos processos seletivos os estudantes matriculados nos semestres iniciais'
 )
 
 # Configura o plot pelo plotly e o carrega usando a função correspondente do streamlit
